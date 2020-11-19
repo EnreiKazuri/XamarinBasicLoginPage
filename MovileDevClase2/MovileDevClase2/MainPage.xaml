@@ -14,7 +14,7 @@
                IsPassword="True" VerticalOptions="Fill" TextColor="Black"/>
         
         <Button Text="Log in" VerticalOptions="Fill" HorizontalOptions="CenterAndExpand" BackgroundColor="Red" WidthRequest="350" Margin="10"
-                Clicked="ButtonClicked"/>
+                Clicked="ButtonClicked" TextColor="White"/>
         
         <Label Text="Register" FontSize="Medium" TextColor="Red" TextDecorations="Underline" 
                VerticalOptions="Fill" HorizontalOptions="CenterAndExpand">
