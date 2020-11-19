@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovileDevClase2.RegisterPage" NavigationPage.HasNavigationBar="True" BackgroundColor="White">
+    <StackLayout>
+        <Image Source="intecLogo.jpg" VerticalOptions="Fill"/>
+
+        <Entry x:Name="NameLabel" Placeholder="Name" PlaceholderColor="Gray"  
+                   HorizontalOptions="CenterAndExpand" WidthRequest="350" TextColor="Black" VerticalOptions="Fill"/>
+        <Entry x:Name="EmailLabel" Placeholder="Email" PlaceholderColor="Gray"  
+                   HorizontalOptions="CenterAndExpand" WidthRequest="350" TextColor="Black" VerticalOptions="Fill"/>
+
+        <Entry x:Name="PasswordLabel" Placeholder="Password" PlaceholderColor="Gray" HorizontalOptions="CenterAndExpand" WidthRequest="350"
+               IsPassword="True" VerticalOptions="Fill" TextColor="Black"/>
+        
+        <Entry x:Name="PasswordConfirmLabel" Placeholder="Confirm Password" PlaceholderColor="Gray" HorizontalOptions="CenterAndExpand" WidthRequest="350"
+               IsPassword="True" VerticalOptions="Fill" TextColor="Black"/>
+        
+        <Button Text="Register" VerticalOptions="Fill" HorizontalOptions="CenterAndExpand" BackgroundColor="Red" WidthRequest="350" Margin="10"
+                Clicked="ButtonClicked"/>
+    </StackLayout>
+</ContentPage>
